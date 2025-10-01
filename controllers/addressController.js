@@ -40,7 +40,7 @@ export const addAddress = async (req, res) => {
       newAddress,
     });
   } catch (error) {
-    console.error(error.message);
+    console.error("Address erroe -> "+error.message);
     res.status(400).json({ success: false, message: error.message });
   }
 };
