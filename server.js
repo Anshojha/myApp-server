@@ -22,7 +22,10 @@ await connectDB()
 await connectCloudinary()
 
 // This will allowed  to access the multiple origin
-const allowedOrigin = ['http://localhost:5173']
+const allowedOrigin = [
+  'http://localhost:5173',
+  'https://your-frontend-vercel-url.vercel.app'
+];
 
 // Middleware configurtation
 app.use(express.json())
