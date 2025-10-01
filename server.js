@@ -24,7 +24,7 @@ await connectCloudinary()
 // This will allowed  to access the multiple origin
 const allowedOrigin = [
   'http://localhost:5173',
-  'https://your-frontend-vercel-url.vercel.app'
+  'https://my-app-client-gray.vercel.app'
 ];
 
 // Middleware configurtation
